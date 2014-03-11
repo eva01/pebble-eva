@@ -268,7 +268,7 @@ static void window_unload(Window *window)
 static void handle_init()
 {
   window = window_create();
-  window_set_background_color(window, GColorBlack);
+  window_set_background_color(window, GColorWhite);
   window_set_window_handlers(window, (WindowHandlers) {
     .load = window_load,
     .unload = window_unload,
